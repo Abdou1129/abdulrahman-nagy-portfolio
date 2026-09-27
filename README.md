@@ -2,7 +2,7 @@
 
 Personal portfolio for **Abdulrahman Nagy (عبدالرحمن ناجي)**: social media manager, content creator, TV presenter (Al Jazeera Mubasher “Know China”), videographer and voiceover artist.
 
-**Live:** https://abdulrahman-nagy.pages.dev
+**Live:** https://abdulrahman-nagy.abdou-ai.workers.dev
 
 ## Stack
 Static HTML/CSS/vanilla JS, no build step. Bilingual EN/DE (`site/i18n.js`).
@@ -22,9 +22,9 @@ links.md          source list of work links
 cd site && python3 -m http.server 8787
 ```
 
-## Deploy (Cloudflare Pages)
+## Deploy (Cloudflare Workers static assets, config in `wrangler.jsonc`)
 ```
-npx wrangler pages deploy site --project-name abdulrahman-nagy --branch main
+npx wrangler deploy
 ```
 
 ## To do (needs info from Nagy)
