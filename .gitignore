@@ -1,0 +1,5 @@
+# raw source footage (web-optimised copies live in site/assets/video)
+videos/
+.wrangler/
+node_modules/
+.DS_Store
