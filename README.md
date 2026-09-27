@@ -2,7 +2,7 @@
 
 Personal portfolio for **Abdulrahman Nagy (عبدالرحمن ناجي)**: social media manager, content creator, TV presenter (Al Jazeera Mubasher “Know China”), videographer and voiceover artist.
 
-**Live:** https://abdulrahman-nagy.abdou-ai.workers.dev
+**Live:** https://nagy-media.de
 
 ## Stack
 Static HTML/CSS/vanilla JS, no build step. Bilingual EN/DE (`site/i18n.js`).
